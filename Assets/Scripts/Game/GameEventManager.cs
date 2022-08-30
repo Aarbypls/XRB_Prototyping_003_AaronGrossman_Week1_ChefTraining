@@ -7,21 +7,15 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameEventManager : MonoBehaviour
-{
-    public enum GameMode
-    {
-        FP,
-        VR
-    }
-    
+{   
+    [SerializeField] private InputActionReference _restartSceneActionReference;
+
     [Header("Accessibility")] 
     public Handed _handedness;
     
-    public GameMode gameMode;
-
     [Header("Audio")]
     [SerializeField] private AudioSource _bgmSource;
-
+    
     private PlayerInput _playerInput;
     private FirstPersonController _firstPersonController;
 
@@ -45,6 +39,8 @@ public class GameEventManager : MonoBehaviour
             Debug.LogWarning("There is no player (or object with tag \"Player\" in the scene.");
         }
 
+        _restartSceneActionReference.action.performed += RestartSceneInputAction;
+        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -64,6 +60,11 @@ public class GameEventManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+    
+    private void RestartSceneInputAction(InputAction.CallbackContext obj)
+    {
+        RestartScene();
     }
 
     public void RestartScene()

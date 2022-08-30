@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42e30eccc1986b6438ed6f4bf64eba3c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _cookedMaterial: {fileID: 2100000, guid: 0aec543af0b9f684c968114a551bb193, type: 2}
+  - _salmonFillet: {instanceID: 0}
+  - _salmonCuts: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
