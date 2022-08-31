@@ -8,10 +8,17 @@ namespace Food
         Halves = 1,
         Slices = 2
     }
+
+    public enum FruitType
+    {
+        Melon = 0,
+        Peach = 1
+    }
     
     public class Fruit : MonoBehaviour
     {
         public FruitSize fruitSize;
+        public FruitType fruitType;
 
         [SerializeField] private GameObject _fruitHalves;
         [SerializeField] private GameObject _fruitSlices;

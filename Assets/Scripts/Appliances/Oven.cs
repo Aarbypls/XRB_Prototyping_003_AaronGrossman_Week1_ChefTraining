@@ -28,7 +28,6 @@ namespace Appliances
 
                 if (!food.cooked)
                 {
-                    Debug.Log("Cooking " + other.gameObject.name);
                     food.SetCooking();
                 }
             }
@@ -38,7 +37,6 @@ namespace Appliances
         {
             if (other.gameObject.TryGetComponent(out CookableFood food) && _foodInOven.Contains(other.gameObject))
             {
-                Debug.Log("Removing from oven " + other.gameObject.name);
                 _foodInOven.Remove(other.gameObject);
                 food.SetNotCooking();
             }

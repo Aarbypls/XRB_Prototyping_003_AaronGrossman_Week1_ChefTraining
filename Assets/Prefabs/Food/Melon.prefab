@@ -9,7 +9,7 @@ Rigidbody:
   m_GameObject: {fileID: 116625332714186300}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -160,7 +160,7 @@ Rigidbody:
   m_GameObject: {fileID: 1285323903822844818}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -311,7 +311,7 @@ Rigidbody:
   m_GameObject: {fileID: 1656424248879908539}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -332,6 +332,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4140346793173904311, guid: ed63170978d948f4ebf8c96d68285176, type: 3}
+--- !u!114 &1306446987007485948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656424248879908539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSize: 2
+  _fruitHalves: {fileID: 0}
+  _fruitSlices: {fileID: 0}
 --- !u!114 &6126865152444607618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,21 +453,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &1306446987007485948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656424248879908539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSize: 2
-  _fruitHalves: {fileID: 0}
-  _fruitSlices: {fileID: 0}
 --- !u!54 &1152798084952156083
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ Rigidbody:
   m_GameObject: {fileID: 2055117033991301672}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -483,6 +483,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4140346793173904311, guid: ed63170978d948f4ebf8c96d68285176, type: 3}
+--- !u!114 &7544822202070458020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055117033991301672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSize: 2
+  _fruitHalves: {fileID: 0}
+  _fruitSlices: {fileID: 0}
 --- !u!114 &7864208229415641429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,21 +604,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &7544822202070458020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055117033991301672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSize: 2
-  _fruitHalves: {fileID: 0}
-  _fruitSlices: {fileID: 0}
 --- !u!1 &2078799019217496501
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +646,7 @@ Rigidbody:
   m_GameObject: {fileID: 2804388310268799400}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -667,6 +667,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4140346793173904311, guid: ed63170978d948f4ebf8c96d68285176, type: 3}
+--- !u!114 &4311514887781473186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804388310268799400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSize: 2
+  _fruitHalves: {fileID: 0}
+  _fruitSlices: {fileID: 0}
 --- !u!114 &7669625119540517018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,21 +788,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &4311514887781473186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2804388310268799400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSize: 2
-  _fruitHalves: {fileID: 0}
-  _fruitSlices: {fileID: 0}
 --- !u!54 &910258534661681672
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -797,7 +797,7 @@ Rigidbody:
   m_GameObject: {fileID: 3194193577884787050}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -948,7 +948,7 @@ Rigidbody:
   m_GameObject: {fileID: 3729345908474739413}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -969,6 +969,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4140346793173904311, guid: ed63170978d948f4ebf8c96d68285176, type: 3}
+--- !u!114 &4932112195376895640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729345908474739413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSize: 2
+  _fruitHalves: {fileID: 0}
+  _fruitSlices: {fileID: 0}
 --- !u!114 &8207724403124816174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,21 +1090,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &4932112195376895640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3729345908474739413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSize: 2
-  _fruitHalves: {fileID: 0}
-  _fruitSlices: {fileID: 0}
 --- !u!1 &4708213634871493104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1169,7 @@ Rigidbody:
   m_GameObject: {fileID: 5880601125377475817}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -1320,7 +1320,7 @@ Rigidbody:
   m_GameObject: {fileID: 6218306577431581801}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -1341,6 +1341,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7553062654370883690, guid: 213c5fc6d0f35ad40961a09b076dfcb7, type: 3}
+--- !u!114 &2249764517818179978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6218306577431581801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSize: 1
+  _fruitHalves: {fileID: 0}
+  _fruitSlices: {fileID: 4708213634871493104}
 --- !u!114 &5026897175014002883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,21 +1462,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &2249764517818179978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6218306577431581801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a54ce62b138d8f84b8370ae5be716d20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSize: 1
-  _fruitHalves: {fileID: 0}
-  _fruitSlices: {fileID: 4708213634871493104}
 --- !u!54 &4566799276559299301
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1471,7 +1471,7 @@ Rigidbody:
   m_GameObject: {fileID: 6884050842308119038}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -1622,7 +1622,7 @@ Rigidbody:
   m_GameObject: {fileID: 7693228702839097623}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
